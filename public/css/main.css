@@ -1,0 +1,58 @@
+body {
+  background: #fc5c7d;
+  /* fallback for old browsers */
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #6a82fb, #fc5c7d);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+h1 {
+  color: #f83838;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 50px;
+  letter-spacing: 5px;
+}
+
+p {
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 15px;
+  font-size: 20px;
+  margin-bottom: -10px;
+}
+
+div.one {
+  width: 60%;
+}
+
+div.one input {
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+div.two table {
+  background-color: #fff;
+}
+
+div.two thead tr.dark {
+  background-color: #a3a3a3;
+  border: 1px solid black;
+}
+
+div.two thead tr.dark th {
+  border: 1px solid black;
+  text-align: center;
+}
+
+div.two td {
+  border-left: 1px solid gray;
+  border-right: 1px solid gray;
+}
+
+div.two h5.copy {
+  text-transform: uppercase;
+  text-align: center;
+  color: #001aff;
+  text-shadow: 2px 2px 2px #ff0659;
+}

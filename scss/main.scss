@@ -1,0 +1,65 @@
+@import './variables';
+
+body {
+  background: #fc5c7d; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #6a82fb,
+    #fc5c7d
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #6a82fb,
+    #fc5c7d
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+h1 {
+  color: $primary;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: $size;
+  letter-spacing: $spacing;
+}
+
+p {
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 15px;
+  font-size: $para-size;
+  margin-bottom: -10px;
+}
+
+div.one {
+  width: 60%;
+  input {
+    margin-bottom: 50px;
+    margin-top: 50px;
+  }
+}
+
+div.two {
+  table {
+    background-color: $body;
+  }
+  thead {
+    tr.dark {
+      background-color: rgb(163, 163, 163);
+      border: 1px solid black;
+      th {
+        border: 1px solid black;
+        text-align: center;
+      }
+    }
+  }
+  td {
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+  }
+  h5.copy {
+    text-transform: uppercase;
+    text-align: center;
+    color: $secondary;
+    text-shadow: $shadow;
+  }
+}
